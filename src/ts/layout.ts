@@ -44,6 +44,7 @@ class Layout {
 }
 
 onDOMContentLoaded(() => {
+  console.log(99988)
   const data = new Layout(document.body)
   data.holdTransition()
   setTimeout(() => {

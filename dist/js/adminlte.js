@@ -1,6 +1,6 @@
 /*!
  * AdminLTE v4.0.0-beta3 (https://adminlte.io)
- * Copyright 2014-2024 Colorlib <https://colorlib.com>
+ * Copyright 2014-2025 Colorlib <https://colorlib.com>
  * Licensed under MIT (https://github.com/ColorlibHQ/AdminLTE/blob/master/LICENSE)
  */
 (function (global, factory) {
@@ -119,6 +119,7 @@
         }
     }
     onDOMContentLoaded(() => {
+        console.log(99988);
         const data = new Layout(document.body);
         data.holdTransition();
         setTimeout(() => {

@@ -46,7 +46,10 @@
       "error",
       "after"
     ],
-    "semi": 0,
+    "semi": [
+      "error",
+      "never"
+    ],
     "unicorn/explicit-length-check": "off",
     "unicorn/no-array-callback-reference": "off",
     "unicorn/no-array-for-each": "off",
@@ -93,7 +96,10 @@
           "error",
           "always"
         ],
-        "@typescript-eslint/semi": 0
+        "@typescript-eslint/semi": [
+          "error",
+          "never"
+        ]
       }
     },
     {
